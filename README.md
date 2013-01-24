@@ -22,4 +22,4 @@ Here are some of the quick highlights of what is included.
 	<li>Socket.io works out of the box, so you can forgo the hassle of making it work with the latest version of express.</li>
 </ul>
 
-Running <code>node app.js</code> and connection to http://localhost:3000 will bring up the hello world page, where you decide to take it from there is up to you!
+Running <code>node app.js</code> and connecting to http://localhost:3000 will bring up the hello world page, where you decide to take it from there is up to you!
