@@ -20,8 +20,6 @@ Here are some of the quick highlights of what is included.
 	<li>MySQL is ready to be setup right away, simply enter your connetion information in the MySQL configuration section of app.js.</li>
 	<li>SASS comes with a script for the extra lazy to monitor your sass files and compile style.css when changes are made. One for *nix and Windows.</li>
 	<li>Socket.io works out of the box, so you can forgo the hassle of making it work with the latest version of express.</li>
-	<li>Normalize.css is included so you know you are starting at the same place on all browsers.</li>
-	<li>Some Bootstrap helper classes are included to assist you with common css calls. Check out sass/helpers.sass to see what is available!</li>
 </ul>
 
 Running <code>node app.js</code> and connecting to http://localhost:3000 will bring up the hello world page, where you decide to take it from there is up to you!
