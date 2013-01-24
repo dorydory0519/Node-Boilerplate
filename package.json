@@ -1,0 +1,16 @@
+{
+  "name": "Node-Boilerplate",
+  "description": "Boiler Plate for Node.js, Express, Socket.io, Mysql & SASS",
+  "Author": "Kyle B. Wilson",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+	"socket.io": "*",
+	"mysql": "*"
+  }
+}

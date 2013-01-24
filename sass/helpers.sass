@@ -1,0 +1,62 @@
+/* Generic CSS Helpers */
+.clearfix
+  *zoom: 1
+  &:after, &:before
+    display: table
+    content: ""
+    line-height: 0
+  &:after
+    clear: both
+.hide-text
+  font: 0/0 a
+  color: transparent
+  text-shadow: none
+  background-color: transparent
+  border: 0
+.pull-right
+  float: right
+.pull-left
+  float: left
+.hide
+  display: none
+.show
+  display: block
+.invisible
+  visibility: hidden
+.affix  
+  position: fixed
+.hidden
+  display: none
+  visibility: hidden
+
+/* Media Query Helpers */
+@mixin display-none
+  display: none !important
+@mixin inherit
+  display: inherit !important
+.visible-phone
+  @include display-none
+.visible-tablet
+  @include display-none
+.hidden-desktop
+  @include display-none
+.visible-desktop
+  @include inherit
+@media (min-width: 768px) and (max-width: 979px)
+  .hidden-desktop
+    @include inherit
+  .visible-desktop
+    @include display-none
+  .visible-tablet
+    @include inherit
+  .hidden-tablet
+    @include display-none
+@media (max-width: 767px)
+  .hidden-desktop
+    @include inherit
+  .visible-desktop
+    @include display-none
+  .visible-phone
+    @include inherit
+  .hidden-phone
+    @include display-none
